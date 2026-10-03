@@ -1,0 +1,1902 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.6f1 (0e0577a1a2ac) revision 918903'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-prosh" at "2026-09-02T04:35:41.43742Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 7616 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-02T04:35:41Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Unity.exe
+-projectpath
+E:\Unity Projects\Create With Code Unity\Physics Class
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-prosh
+-hubSessionId
+39f71c62-b162-4021-b93a-ac7b82113852
+-accessToken
+eL48Jl1lPqoxYD_EQmH3cO-BWxnUEmJbKhb4-SWvyss00cf
+Successfully changed project path to: E:\Unity Projects\Create With Code Unity\Physics Class
+E:/Unity Projects/Create With Code Unity/Physics Class
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [15092]  Target information:
+
+Player connection [15092]  * "[IP] 172.25.170.194 [Port] 55504 [Flags] 2 [Guid] 999161003 [EditorId] 999161003 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-RE88BS3G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15092] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15092] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-prosh"
+[Licensing::IpcConnector] LicenseClient-prosh channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-prosh-6000.5.6 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 16308)
+[Package Manager] Connected to IPC stream "Upm-1496" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-prosh-6000.5.6, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-prosh-6000.5.6" at "2026-09-02T04:35:50.1047469Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16308, path: "C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b7cba5370b624a62ba67129142960579
+  Correlation Id:          88dd47f8f86578fc19b52f128b6373ad
+  External correlation Id: 1619442292332021706
+  Machine Id:              Ncygj2XV2P2yH6SAGj/objf//zY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-prosh-6000.5.6" (connect: 6.56s, validation: 0.99s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-prosh-6000.5.6-notifications" at "2026-09-02T04:35:51.1375731Z"
+[Licensing::Module] Connected to LicensingClient (PId: 16308, launch time: 0.07, total connection time: 7.59s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token eL48Jl1lPq...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469923594252-unity_09shandilyagupta-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2027-05-20T11:53:13Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 9.76s
+[Licensing::Module] Licensing is initialized (took 7.57s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.46 ms, found 0 plugins.
+Initialize engine version: 6000.5.6f1 (0e0577a1a2ac)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/Create With Code Unity/Physics Class/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce GTX 1650
+[D3D12 Device Filter] Driver Version: 32.0.16.1656
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 3935 MB
+[D3D12 Device Filter] Processor Count: 8
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:          NVIDIA
+    VRAM:            3935 MB
+    App VRAM Budget: 3344 MB
+    Driver:          32.0.16.1656
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.445904 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.068 seconds
+Domain Reload Profiling: 5278ms
+	BeginReloadAssembly (548ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (376ms)
+	initialDomainReloadingComplete (817ms)
+	LoadAllAssembliesAndSetupDomain (2451ms)
+		LoadAssemblies (522ms)
+		AnalyzeDomain (2307ms)
+			TypeCache.Refresh (2305ms)
+				TypeCache.ScanAssembly (1868ms)
+	FinalizeReload (1074ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (487ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 56 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.3 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.collab-proxy@4f3be89e8675)
+    com.unity.inputsystem@1.20.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.ide.visualstudio@2.0.26 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.ide.rider@3.0.38 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.editorcoroutines@1.1.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2)
+    com.unity.performance.profile-analyzer@1.4.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.performance.profile-analyzer@2bb26871883c)
+    com.unity.testtools.codecoverage@1.3.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620)
+    com.unity.settings-manager@2.1.1 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.burst@1.8.29 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.feature.development@1.0.2 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.feature.development@767aadbc6eb7)
+    com.unity.multiplayer.center@1.0.1 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.ugui@67707a67a4ab)
+    com.unity.modules.accessibility@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.7.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.collections@6.5.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.collections@a43cabe808ca)
+    com.unity.ext.nunit@2.1.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.mathematics@1.4.0 (location: E:\Unity Projects\Create With Code Unity\Physics Class\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.07 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: E:\Unity Projects\Create With Code Unity\Physics Class
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 46.8753ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity Projects/Create With Code Unity/Physics Class
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1982.1203ms
+ExitCode: 0 Duration: 6s847ms
+[510/673    2s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (6.02 seconds), 1 items updated, 673 evaluated
+AssetDatabase: script compilation time: 8.303291s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 224.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.607 seconds
+Domain Reload Profiling: 12900ms
+	BeginReloadAssembly (792ms)
+		DisableScriptedObjects (81ms)
+		CreateAndSetChildDomain (233ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (4290ms)
+		LoadAssemblies (3971ms)
+		AnalyzeDomain (457ms)
+			TypeCache.Refresh (377ms)
+				TypeCache.ScanAssembly (362ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (7609ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (6798ms)
+			ProcessInitializeOnLoadMethodAttributes (298ms)
+			AfterProcessingInitializeOnLoad (19ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Starting new worker id: 0 with log in E:/Unity Projects/Create With Code Unity/Physics Class/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=195a97e0c12308e4abbef06f0828d3d2): Total: 47.934 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=33768 ms
+		Asset DB Callback time: managed=160 ms, native=145 ms
+		Scripting: domain reloads=1, domain reload time=5476 ms, compile time=8308 ms, other=73 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 150.504ms
+	ApplyChangesToAssetFolders: 0.992ms
+	Scan: 11330.761ms
+	Collect global state as custom dependencies: 19.554ms
+	CategorizeScriptCompilationAssets: 5689.115ms
+	ProcessAssetsWithTransientArtifactChanges: 88.867ms
+	CategorizeAssets: 32.762ms
+	CompileScripts: 8308.102ms
+	ImportOutOfDateAssets: 7903.253ms (7856.578ms without children)
+		UnloadImportedAssets: 0.308ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.523ms
+		ImportSchedulerStart: 45.841ms
+	PostProcessAllAssets: 160.380ms
+		MonoPostProcessAllAssets: 160.225ms
+			SyncVS.PostprocessSyncProject 110.956ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 20.782ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.325ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.792ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.590ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.555ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.428ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.299ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.161ms
+	UnloadStreamsBegin: 2.981ms
+	PersistCurrentRevisions: 0.132ms
+	GenerateScriptTypeHashes: 2.502ms
+	GenerateScriptTypeSerializationHashes: 4.527ms
+	Untracked: 14184.700ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
+Scanning for USB devices : 2.636ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Physics Class
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            471.081 ms
+	Integration:            598.661 ms
+	Integration of assets:  12.160 ms
+	Thread Wait Time:       1.350 ms
+	Total Operation Time:   1083.252 ms
+Unloading 4677 unused Assets / (3.3 MB). Loaded Objects now: 5376.
+Memory consumption went from 339.3 MB to 336.0 MB.
+Total: 185.774700 ms (FindLiveObjects: 1.403400 ms CreateObjectMapping: 1.971600 ms MarkObjects: 171.237000 ms  DeleteObjects: 10.607000 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout E:\Unity Projects\Create With Code Unity\Physics Class\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/prosh/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 96.115 seconds
+	Project init time: 				87.107 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		7.872 seconds
+		Asset Database init time: 		4.431 seconds
+		Global illumination init time: 	0.041 seconds
+		Assemblies load time: 			19.023 seconds
+		Unity extensions init time: 	0.049 seconds
+		Asset Database refresh time: 	47.935 seconds
+	Scene opening time: 			8.695 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1788323837515,"processId":1496,"projectLoad":96.1152335,"projectInit":87.106615,"templateInit":0.0,"packageManagerInit":7.8718824,"assetDatabaseInit":4.430682,"globalIlluminationInit":0.0406971,"assembliesLoad":19.022928,"unityExtensionsInit":0.0494806,"assetDatabaseRefresh":47.9347078,"sceneOpening":8.6948506}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1788323837516,"processId":1496,"editorVersion":"6000.5.6f1 (0e0577a1a2ac)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=05c04f88913707c45a10c320bf161840): Total: 0.353 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=351 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 8.716ms
+	ApplyChangesToAssetFolders: 0.471ms
+	Scan: 207.917ms
+	Collect global state as custom dependencies: 1.790ms
+	ProcessAssetsWithTransientArtifactChanges: 0.158ms
+	CategorizeAssets: 2.476ms
+	ImportOutOfDateAssets: 19.982ms (8.795ms without children)
+		UnloadImportedAssets: 0.226ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.361ms
+		ImportSchedulerStart: 10.572ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.224ms
+	UnloadStreamsBegin: 4.316ms
+	PersistCurrentRevisions: 0.074ms
+	Untracked: 25.529ms
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/prosh/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.077s, timestamps: [102.129 - 102.206]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "eL48Jl1l"... (expires: 2026-09-02T06:33:41Z)
+UPID Received 'ffe1a96b-e6af-40f6-a5e6-9aaef71a17d3'.
+Starting new worker id: 1 with log in E:/Unity Projects/Create With Code Unity/Physics Class/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: f6335eac824c1824e862ff07ee828e7b - Path: Assets/NewMonoBehaviourScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '39e5832dbe11c95c195492434cc65094') in 0.3522794 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Worker ready: AssetImportWorkerHW1 1
+Refreshing native plugins compatible for Editor in 40.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.450 seconds
+Domain Reload Profiling: 6927ms
+	BeginReloadAssembly (1746ms)
+		DisableScriptedObjects (353ms)
+		CreateAndSetChildDomain (694ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (828ms)
+	LoadAllAssembliesAndSetupDomain (860ms)
+		LoadAssemblies (934ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (13ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3453ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (883ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (19ms)
+		AwakeInstancesAfterBackupRestoration (1358ms)
+No restricted APIs configured; Validation skipped.
+Checking 24 assemblies for restricted APIs found 0 usage(s) in 6 ms
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=fdbb49d0efb01634580c55df4a372048): Total: 14.283 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4860 ms
+		Asset DB Callback time: managed=587 ms, native=1054 ms
+		Scripting: domain reloads=1, domain reload time=7774 ms, compile time=6 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 825.557ms
+	ApplyChangesToAssetFolders: 0.573ms
+	Collect global state as custom dependencies: 225.409ms
+	ProcessAssetsWithTransientArtifactChanges: 235.175ms
+	CategorizeAssets: 18.714ms
+	CompileScripts: 5.901ms
+	ImportOutOfDateAssets: 3524.779ms (3510.585ms without children)
+		CollectScriptTypesHashes: 0.557ms
+		ReloadNativeAssets: 0.459ms
+		UnloadImportedAssets: 2.624ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.475ms
+		ImportSchedulerStart: 10.618ms
+	PostProcessAllAssets: 827.475ms
+		AssemblyValidation.PostprocessAllAssets 36.367ms
+		PostProcessCallbackCreateDeferredMaterials 24.019ms
+		PostprocessAssetsUpdateCachedIcon 22.541ms
+		ShaderAssetModifiedCallback 12.071ms
+		ComputeShaderImportPostprocess 11.692ms
+		RaytracingShaderImportPostprocess 11.631ms
+		SpeedTreeImporter.PostprocessAllAssets 8.496ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 4.119ms
+		BlockShaderImporter.PostprocessAllAssets 3.484ms
+		XRBuildSystem.XRAssetImported 0.536ms
+		MonoPostProcessAllAssets: 581.850ms
+			SyncVS.PostprocessSyncProject 361.277ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 43.310ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 40.483ms
+			AssetPostprocessor.OnPostprocessAllAssets 36.191ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 23.497ms
+			AssetChangedListener.OnPostprocessAllAssets 17.976ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.851ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.934ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.842ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.637ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.537ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.813ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.778ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.749ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.613ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.497ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.496ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.449ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.439ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.425ms
+			AssetEvents.OnPostprocessAllAssets 0.415ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.349ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.221ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.217ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.203ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.174ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.126ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.123ms
+	PostAssetChangesProfiler: 10.640ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.145ms
+	UnloadStreamsBegin: 3.097ms
+	PersistCurrentRevisions: 0.061ms
+	GenerateScriptTypeHashes: 2.195ms
+	GenerateScriptTypeSerializationHashes: 4.339ms
+	Untracked: 8495.444ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.269 ms
+	Integration:            415.715 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   418.999 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.294 ms
+	Integration:            335.153 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   337.465 ms
+Unloading 4317 unused Assets / (27.8 MB). Loaded Objects now: 6360.
+Memory consumption went from 0.55 GB to 0.52 GB.
+Total: 36.006600 ms (FindLiveObjects: 0.953000 ms CreateObjectMapping: 1.771800 ms MarkObjects: 21.997000 ms  DeleteObjects: 11.282500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.211 seconds
+Domain Reload Profiling: 4787ms
+	BeginReloadAssembly (1142ms)
+		DisableScriptedObjects (193ms)
+		CreateAndSetChildDomain (614ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (243ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (3213ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (720ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (19ms)
+		AwakeInstancesAfterBackupRestoration (1206ms)
+
+Asset Pipeline Refresh (id=cd3cec84ded04e14dad9491312238353): Total: 6.123 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3532 ms
+		Asset DB Callback time: managed=87 ms, native=25 ms
+		Scripting: domain reloads=1, domain reload time=2472 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 28.743ms
+	ApplyChangesToAssetFolders: 0.482ms
+	Collect global state as custom dependencies: 19.989ms
+	ProcessAssetsWithTransientArtifactChanges: 0.229ms
+	CategorizeAssets: 23.610ms
+	CompileScripts: 4.441ms
+	ImportOutOfDateAssets: 3244.160ms (3230.745ms without children)
+		ReloadNativeAssets: 0.532ms
+		UnloadImportedAssets: 0.551ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.573ms
+		ImportSchedulerStart: 11.746ms
+	PostProcessAllAssets: 87.282ms
+		MonoPostProcessAllAssets: 87.276ms
+			SyncVS.PostprocessSyncProject 47.600ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 43.310ms
+			AssetPostprocessor.OnPostprocessAllAssets 36.191ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 23.497ms
+			AssetChangedListener.OnPostprocessAllAssets 17.976ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 14.737ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.851ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.637ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.028ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 2.006ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.813ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.778ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.755ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.749ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.623ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.613ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.547ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.496ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.449ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.415ms
+			AssetEvents.OnPostprocessAllAssets 0.415ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.349ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.323ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.221ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.219ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.203ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.174ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.123ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.135ms
+	UnloadStreamsBegin: 0.051ms
+	PersistCurrentRevisions: 0.075ms
+	GenerateScriptTypeHashes: 2.166ms
+	GenerateScriptTypeSerializationHashes: 4.229ms
+	Untracked: 2648.759ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.955 ms
+	Integration:            465.432 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   468.422 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+
+[main 2026-09-02T04:38:56.852Z] StorageMainService: creating application shared storage
+[main 2026-09-02T04:38:57.248Z] [shared storage] Creating shared storage database at 'c:\Users\prosh\.vscode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+[main 2026-09-02T04:38:57.257Z] [shared storage] Initializing fallback application storage (path: c:\Users\prosh\AppData\Roaming\Code\User\globalStorage\state.vscdb)
+[main 2026-09-02T04:38:57.413Z] [shared storage] Fallback application storage initialized with 173 items
+[main 2026-09-02T04:39:00.674Z] update#setState idle
+[main 2026-09-02T04:39:00.851Z] AgentHostProcessManager: agent host started
+(node:10432) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+[main 2026-09-02T04:39:06.799Z] [AgentHost:stderr] (node:5104) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+
+Unknown channel: agentHostClientByokLm
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+
+Asset Pipeline Refresh (id=4bab02c0ee94e4d469c41b6108d0aacb): Total: 0.338 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=334 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	ApplyChangesToAssetFolders: 1.084ms
+	Scan: 219.165ms
+	Collect global state as custom dependencies: 2.417ms
+	GatherAllCurrentPrimaryImportResultRevisions: 13.185ms
+	UnloadStreamsBegin: 28.496ms
+	UnloadStreamsEnd: 0.263ms
+	Untracked: 69.158ms
+
+[main 2026-09-02T04:39:38.281Z] update#setState checking for updates
+[main 2026-09-02T04:39:38.394Z] update#setState idle
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            35.665 ms
+	Integration:            4445.091 ms
+	Integration of assets:  0.098 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   4480.856 ms
+Unloading 32 unused Assets / (43.1 KB). Loaded Objects now: 6374.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 803.596100 ms (FindLiveObjects: 12.205900 ms CreateObjectMapping: 4.761800 ms MarkObjects: 784.171300 ms  DeleteObjects: 2.444500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 106.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 52.840 seconds
+Domain Reload Profiling: 70760ms
+	BeginReloadAssembly (10317ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (1619ms)
+		CreateAndSetChildDomain (3840ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (91ms)
+	initialDomainReloadingComplete (3284ms)
+	LoadAllAssembliesAndSetupDomain (4166ms)
+		LoadAssemblies (4227ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (41ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (52847ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (672ms)
+			ProcessInitializeOnLoadAttributes (3479ms)
+			ProcessInitializeOnLoadMethodAttributes (574ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (44103ms)
+
+Asset Pipeline Refresh (id=c48a7bd5f1d835742bd9740f71913ff6): Total: 91.361 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=69807 ms
+		Asset DB Callback time: managed=129 ms, native=93 ms
+		Scripting: domain reloads=1, domain reload time=21320 ms, compile time=10 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 161.478ms
+	ApplyChangesToAssetFolders: 1.954ms
+	Collect global state as custom dependencies: 222.326ms
+	ProcessAssetsWithTransientArtifactChanges: 9.647ms
+	CategorizeAssets: 14568.758ms
+	CompileScripts: 10.396ms
+	ImportOutOfDateAssets: 53086.916ms (53037.434ms without children)
+		CollectScriptTypesHashes: 1.207ms
+		ReloadNativeAssets: 1.192ms
+		UnloadImportedAssets: 1.425ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.370ms
+		ImportSchedulerStart: 43.530ms
+	PostProcessAllAssets: 129.012ms
+		MonoPostProcessAllAssets: 128.993ms
+			SyncVS.PostprocessSyncProject 59.983ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 43.310ms
+			AssetPostprocessor.OnPostprocessAllAssets 36.191ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 30.048ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 23.497ms
+			AssetChangedListener.OnPostprocessAllAssets 17.976ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.851ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 3.485ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.637ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.537ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.257ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.919ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.890ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.813ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.778ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.749ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.613ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.568ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.496ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.449ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.436ms
+			AssetEvents.OnPostprocessAllAssets 0.415ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.349ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.271ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.221ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.203ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.174ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.123ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.194ms
+	UnloadStreamsBegin: 0.059ms
+	PersistCurrentRevisions: 0.184ms
+	GenerateScriptTypeHashes: 7.819ms
+	GenerateScriptTypeSerializationHashes: 14.689ms
+	Untracked: 23118.981ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            21.305 ms
+	Integration:            1635.251 ms
+	Integration of assets:  0.370 ms
+	Thread Wait Time:       -0.340 ms
+	Total Operation Time:   1656.587 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.772 ms
+	Integration:            662.748 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   668.560 ms
+Unloading 32 unused Assets / (10.3 MB). Loaded Objects now: 6376.
+Memory consumption went from 0.54 GB to 0.53 GB.
+Total: 40.262700 ms (FindLiveObjects: 1.042900 ms CreateObjectMapping: 1.755600 ms MarkObjects: 34.940200 ms  DeleteObjects: 1.870900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 9fc0d4010bbf28b4594072e72b8655ab - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 9fc0d4010bbf28b4594072e72b8655ab' -> (Import Result ID: 'f23c2bc87165c4e4bd7c9ba9b0c1c0c6') in 0.035 seconds [static dependencies only]. Details - ImportResultOutputID=f412fc24270766a3017e69813f8a14d7 DependenciesID=df7e1473c077ed63ce533caf40475a8e StaticDependenciesID=8444cc21b404dd5a85a2cd23a6a40ed1 
+Refreshing native plugins compatible for Editor in 7.36 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=709741e1faedb8d41880ee5207e09e5a): Total: 0.884 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=8 ms, native=696 ms
+		Asset DB Callback time: managed=113 ms, native=64 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 1.058ms
+	Scan: 483.744ms
+	Collect global state as custom dependencies: 10.333ms
+	OnSourceAssetsModified: 6.772ms
+	CategorizeScriptCompilationAssets: 0.892ms
+	ProcessAssetsWithTransientArtifactChanges: 0.146ms
+	CategorizeAssets: 4.483ms
+	ImportOutOfDateAssets: 177.529ms (19.666ms without children)
+		ImportManagerImport: 137.483ms (4.538ms without children)
+			UpdateCategorizedAssets: 0.117ms
+		ReloadNativeAssets: 0.098ms
+		UnloadImportedAssets: 0.918ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.192ms
+		ImportSchedulerStart: 18.119ms
+	PostProcessAllAssets: 162.328ms
+		XRBuildSystem.XRAssetImported 8.646ms
+		ShaderAssetModifiedCallback 0.452ms
+		AssemblyValidation.PostprocessAllAssets 0.310ms
+		RaytracingShaderImportPostprocess 0.306ms
+		MonoPostProcessAllAssets: 111.216ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 29.225ms
+			SyncVS.PostprocessSyncProject 22.766ms
+			AssetChangedListener.OnPostprocessAllAssets 20.603ms
+			AssetPostprocessor.OnPostprocessAllAssets 12.173ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 4.704ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.346ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 2.828ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 2.128ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.038ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.693ms
+			SamplePostprocessor.OnPostprocessAllAssets 1.236ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.182ms
+			AssetReloadNotifier.OnPostprocessAllAssets 1.162ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.917ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.902ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.872ms
+			AssetEvents.OnPostprocessAllAssets 0.712ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.448ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.425ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.211ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.172ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.090ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.081ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 9.480ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.142ms
+	UnloadStreamsBegin: 7.649ms
+	PersistCurrentRevisions: 0.818ms
+	Untracked: 17.123ms
+
+[Licensing::Client] Successfully resolved entitlement details
+
+
+Asset Pipeline Refresh (id=6ae12f5b7e120aa4aad0f15ce2435f3f): Total: 0.567 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=526 ms
+		Asset DB Callback time: managed=0 ms, native=41 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 42.481ms
+	ApplyChangesToAssetFolders: 0.383ms
+	Scan: 497.034ms
+	Collect global state as custom dependencies: 0.994ms
+	GatherAllCurrentPrimaryImportResultRevisions: 4.880ms
+	UnloadStreamsBegin: 0.102ms
+	UnloadStreamsEnd: 0.733ms
+	Untracked: 20.634ms
+
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 287.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.055 seconds
+Domain Reload Profiling: 59585ms
+	BeginReloadAssembly (31131ms)
+		DisableScriptedObjects (761ms)
+		CreateAndSetChildDomain (3022ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (15079ms)
+	LoadAllAssembliesAndSetupDomain (2238ms)
+		LoadAssemblies (28706ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (33ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (11059ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (2136ms)
+			ProcessInitializeOnLoadMethodAttributes (365ms)
+			AfterProcessingInitializeOnLoad (38ms)
+		AwakeInstancesAfterBackupRestoration (4228ms)
+
+Asset Pipeline Refresh (id=cec6de6c9bfcd62448bd306c31c0bc61): Total: 70.661 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=12489 ms
+		Asset DB Callback time: managed=212 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=57850 ms, compile time=106 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 108.341ms
+	ApplyChangesToAssetFolders: 1.380ms
+	Collect global state as custom dependencies: 3.618ms
+	ProcessAssetsWithTransientArtifactChanges: 0.463ms
+	CategorizeAssets: 57.575ms
+	CompileScripts: 106.234ms
+	ImportOutOfDateAssets: 11400.566ms (11372.022ms without children)
+		CollectScriptTypesHashes: 1.027ms
+		ReloadNativeAssets: 1.044ms
+		UnloadImportedAssets: 0.859ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.953ms
+		ImportSchedulerStart: 25.648ms
+	PostProcessAllAssets: 212.706ms
+		MonoPostProcessAllAssets: 212.686ms
+			SyncVS.PostprocessSyncProject 127.563ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 29.225ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 28.742ms
+			AssetChangedListener.OnPostprocessAllAssets 20.603ms
+			AssetPostprocessor.OnPostprocessAllAssets 12.173ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 4.704ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 4.043ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.346ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 2.828ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 2.374ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.038ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.693ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.617ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.554ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.395ms
+			SamplePostprocessor.OnPostprocessAllAssets 1.236ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.182ms
+			AssetReloadNotifier.OnPostprocessAllAssets 1.162ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.917ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.902ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.872ms
+			AssetEvents.OnPostprocessAllAssets 0.712ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.613ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.564ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.540ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.448ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.425ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.172ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.543ms
+	UnloadStreamsBegin: 0.119ms
+	PersistCurrentRevisions: 0.203ms
+	GenerateScriptTypeHashes: 5.087ms
+	GenerateScriptTypeSerializationHashes: 9.814ms
+	Untracked: 58749.035ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            11.113 ms
+	Integration:            910.185 ms
+	Integration of assets:  0.313 ms
+	Thread Wait Time:       -0.285 ms
+	Total Operation Time:   921.327 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=1dd53d88232261944b8bd892d318d4cf): Total: 0.029 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.278 ms
+	Integration:            528.181 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   531.472 ms
+Unloading 34 unused Assets / (27.9 MB). Loaded Objects now: 6553.
+Memory consumption went from 0.59 GB to 0.56 GB.
+Total: 48.800000 ms (FindLiveObjects: 1.039900 ms CreateObjectMapping: 1.322100 ms MarkObjects: 45.368400 ms  DeleteObjects: 1.050200 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 10.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.024 seconds
+Domain Reload Profiling: 11825ms
+	BeginReloadAssembly (2580ms)
+		DisableScriptedObjects (579ms)
+		CreateAndSetChildDomain (1238ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (326ms)
+	LoadAllAssembliesAndSetupDomain (794ms)
+		LoadAssemblies (550ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (25ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (8030ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (427ms)
+			ProcessInitializeOnLoadAttributes (1572ms)
+			ProcessInitializeOnLoadMethodAttributes (296ms)
+			AfterProcessingInitializeOnLoad (29ms)
+		AwakeInstancesAfterBackupRestoration (3375ms)
+
+Asset Pipeline Refresh (id=fd15af1694d6e5d4397ad27d93dcbc30): Total: 12.740 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=8490 ms
+		Asset DB Callback time: managed=152 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=4083 ms, compile time=11 ms, other=0 ms
+		Project Asset Count: scripts=911, non-scripts=1055
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 8.605ms
+	ApplyChangesToAssetFolders: 1.150ms
+	Collect global state as custom dependencies: 5.771ms
+	ProcessAssetsWithTransientArtifactChanges: 0.374ms
+	CategorizeAssets: 41.155ms
+	CompileScripts: 10.816ms
+	ImportOutOfDateAssets: 8129.171ms (8100.851ms without children)
+		CollectScriptTypesHashes: 0.058ms
+		ReloadNativeAssets: 0.801ms
+		UnloadImportedAssets: 1.564ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.599ms
+		ImportSchedulerStart: 24.315ms
+	PostProcessAllAssets: 152.558ms
+		MonoPostProcessAllAssets: 152.542ms
+			SyncVS.PostprocessSyncProject 85.044ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 29.225ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 24.022ms
+			AssetChangedListener.OnPostprocessAllAssets 20.603ms
+			AssetPostprocessor.OnPostprocessAllAssets 12.173ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 4.704ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.346ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 2.828ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.424ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 2.148ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.038ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.693ms
+			SamplePostprocessor.OnPostprocessAllAssets 1.236ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.182ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.175ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.168ms
+			AssetReloadNotifier.OnPostprocessAllAssets 1.162ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.022ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.917ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.902ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.873ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.872ms
+			AssetEvents.OnPostprocessAllAssets 0.712ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.565ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.448ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.425ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.277ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.172ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.243ms
+	UnloadStreamsBegin: 0.147ms
+	PersistCurrentRevisions: 0.126ms
+	GenerateScriptTypeHashes: 3.241ms
+	GenerateScriptTypeSerializationHashes: 6.234ms
+	Untracked: 4366.059ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.309 ms
+	Integration:            758.242 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   763.593 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+[Licensing::Client] Successfully resolved entitlement details
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Cross: (-3.55, 2.26, 1.96)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:67)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 67)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Dot: 5.364
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:56)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 56)
+
+Sum: (5.52, 7.79, 1.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:31)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 31)
+
+Difference: (-4.52, -7.09, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CubeTracker:Update () (at Assets/NewMonoBehaviourScript.cs:42)
+
+(Filename: Assets/NewMonoBehaviourScript.cs Line: 42)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.312 ms
+	Integration:            599.719 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.045 ms
+	Total Operation Time:   604.086 ms
+Unloading 41 unused Assets / (29.6 MB). Loaded Objects now: 6577.
+Memory consumption went from 0.63 GB to 0.60 GB.
+Total: 49.408200 ms (FindLiveObjects: 1.538300 ms CreateObjectMapping: 2.044100 ms MarkObjects: 41.272000 ms  DeleteObjects: 4.549000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+MonoPathRemapper: Attempts to remap: 41636; Successful remaps: 12052
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout E:\Unity Projects\Create With Code Unity\Physics Class\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/prosh/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-prosh-6000.5.6-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-prosh-6000.5.6 channel disconnected successfully.
+Shut down.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+[main 2026-09-02T04:47:22.691Z] Extension host with pid 6528 exited with code: 0, signal: unknown.
+abort_threads: Failed aborting id: 0000000000002378, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002378, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4712
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1788324444921,"processId":1496,"allocatedMemory":50819137,"memoryLabels":[{"Default":217477},{"Permanent":15516},{"NewDelete":68517},{"Thread":4214432},{"Manager":31784},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":857860},{"Material":24},{"GfxDevice":63416},{"GfxThread":27648},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":427056},{"Input":45280},{"JobScheduler":256},{"TextLib":14806},{"Mono":48},{"ScriptingNativeRuntime":1728948},{"BaseObject":1922622},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":9947},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9768},{"StaticString":3808},{"Utility":2673010},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":6920},{"WebRequest":12904},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33050408},{"Camera":7465},{"Secure":1673},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1089672},{"CoreStats":13688},{"Identifiers":6768},{"Gui":1069959},{"EditorUtility":212203},{"VersionControl":8},{"Undo":931},{"AssetDatabase":2488385},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35383},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"TLS":13804},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

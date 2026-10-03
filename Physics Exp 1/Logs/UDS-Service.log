@@ -1,0 +1,35 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix 51e0d472fd322c0f3e56d34a947aa9b4
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file E:/Unity Projects/Create With Code Unity/Physics Class/Logs/UDS-Service.log
+  --debug-log 2
+  -name
+  Unity.DataStore
+
+Initialising UDS system complete:
+  - System type: Service
+  - Resource namespace: 51e0d472fd322c0f3e56d34a947aa9b4
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+Starting Unity Data Store Application
+[Error] Failed to free block of size 1955 - size delta was 45!
+0x00007ff75bd6ac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff75bd2f835 (Unity.DataStore) uds_cleanup
+0x00007ff75bd58578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff75bd4995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff75bd31e4a (Unity.DataStore) uds_cleanup
+0x00007ff75bd025f4 (Unity.DataStore) 
+0x00007ff75bd2207a (Unity.DataStore) uds_cleanup
+0x00007ff75bd661d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007fff8e99cd87 (KERNEL32) BaseThreadInitThunk
+0x00007fff8fc6caec (ntdll) RtlUserThreadStart
+
+Unity Data Store Application Complete
+Shut down UDS service system complete
